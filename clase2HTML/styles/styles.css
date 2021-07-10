@@ -1,0 +1,77 @@
+/* clase/etiqueta {
+    estilo_a_aplicar: propiedad_del_estilo;
+} */
+
+/* Estilos Generales */
+
+/* Para todo el doc se deja * detrás del corchete */
+
+* {
+  font-family: Arial, Helvetica, sans-serif; /* Revisa si el explorador tiene esas fuentes. Si no tiene la primera, reemplaza con la segunda y así sucesivamente */
+  margin: 0px; /* Espaciado al borde de la página. Con 0 el texto queda lo más pegado hacia arriba. */
+  padding: 0px;
+}
+
+/*- navBar Syles */
+
+nav {
+  background-color: #33beff;
+  padding: 20px;
+  color: aliceblue;
+}
+
+/* CLASES: Son contenedores de estilo. Siempre se crean con . en el css, pero en el HTML no lo llevan */
+
+/* Button Header Styles */
+
+.btn-header-style {
+  color: #ffffff;
+  background-color: #33b13d;
+  padding: 10px;
+  border: 0; /* remueve el borde del botón */
+  border-radius: 5px; /* Redondea las esquinas */
+  margin-top: 50px;
+  /* padding-bottom: 20px; También se puede hacer con el margin*/
+}
+
+/* Header Container Styles */
+
+.header-container {
+  /*background-color: blue;*/
+  color: #ffffff;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.overlay-div {
+  background-color: black;
+}
+
+/* Flexbox */
+
+.container {
+  display: flex;
+}
+
+/* bg-header ; se pueden usar varias clases a la vez, separadas por un espacio en el HTML*/
+
+.bg-header {
+  background-image: url("../img/burger-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  opacity: 0.999;
+}
+
+/* LOREM IPSUM
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu
+
+*/
