@@ -1,0 +1,35 @@
+.circulo {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom, #006600 0%, #00ff99 100%);
+  display: block;
+  border-radius: 80%;
+}
+
+.rectangulo {
+  width: 400px;
+  height: 200px;
+  background: linear-gradient(to bottom, #000099 0%, #6699ff 100%);;
+  display: block;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 300px solid purple;
+  display: block;
+}
+
+.titulos{
+    font-family: Arial;
+    text-align: center;
+}
+
+.imagenes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
